@@ -1,0 +1,53 @@
+
+body { background: #fff; color: #000; margin: 0; padding: 0; }
+
+
+/* Embed font from google */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900);
+
+
+
+section, header {font-family: 'Source Sans Pro', sans-serif;}
+
+/* Sets width on section containers */
+section .container, header .container { max-width: 900px; margin: 0 auto;}
+
+section.intro { display: inline-block; width: 54%; margin-right: 6%; vertical-align: top; }
+section.intro p { font-size: 20px; line-height: 1.4em; font-weight: 200; margin-right: 25%;}
+section.content { display: inline-block; width: 38%; vertical-align: top;}
+
+h2 { margin: 0 0 0.3em 0; font-size: 42px; line-height: 1.2em; }
+h2 span { display: block;}
+
+
+
+.pagehead h1 { text-indent: -1000em; background: url(../images/logo.png) scroll no-repeat 0 0; width: 198px; height: 64px; margin: 1em 0 0 0;}
+
+
+
+.section-what { background: #272829; color: #fff; padding: 4em 0 4.5em; }
+
+
+.section-stats { background: #c00; color: #fff; padding: 4em 0 4.5em; }
+
+
+.stat-number { margin: 0 0 2em 0; border-top: 1px solid #000; }
+.stat-number strong { display: block; font-size: 62px; font-weight: 200; line-height: 77px; }
+.stat-number span { font-weight: 600; text-transform: uppercase; }
+
+
+
+.section-who { background: #fff; padding: 0; position: relative; height: 450px; overflow: hidden;}
+.extracontainer { background: rgba(255,255,255,0.8); position: absolute; top: 0; width: 100%; min-height: 450px;}
+.avatars { width: 107%; max-width: auto; }
+.avatars img { width: 80px; height: 80px; margin: 2px 2px 0 0; display: inline-block; }
+.section-who section { padding: 4em 0;}
+
+
+
+
+@media screen and (max-width: 641px) {
+
+section.content, section.intro { display: block; width: auto; margin-left: 20px; margin-right: 20px; }
+
+}
